@@ -17,7 +17,6 @@ async function Finder() {
   
       const data = await response.json();
   
-      // Afișare în pagină (manipulare DOM)
       resultDiv.innerHTML = `
         <div style="text-align: center;">
           <img src="${data.avatar_url}" width="120" style="border-radius: 50%;" alt="avatar">
